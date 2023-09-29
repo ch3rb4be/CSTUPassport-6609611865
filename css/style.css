@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.navbar {
+    padding: 0;
+    display: flex;
+    /* border: 1px solid red; */
+    background-color: #cb2c2b;
+    color: #ded6c9;
+}
+.logo {
+    width: 4%;
+    height: 4%;
+    /* border: 1px solid red; */
+    justify-content: center;
+    align-items: center;
+    padding: 6px;
+}
+.menu {
+    /* border: 1px solid red; */
+    display: flex;
+    width: 60%;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    font-size: 120%;
+}
+ul li {
+    margin: 0 5%;
+}
+ul li a {
+    color: #ded6c9;
+    text-decoration: none;
+    font-size: 120%;
+}
+.tu {
+    width: 55%;
+    /* border: 1px solid red; */
+    font-size: 140%;
+    padding-left: 1%;
+    margin-top: 0.5%;
+}
+.header {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: #e7e4e2;
+    color: #2b3443;
+}
+.name {
+    font-size: 540%;
+    /* border: 1px solid red; */
+    width: 70%;
+    text-shadow: 0.1em 0.1em 0.em black;
+}
+.profile {
+    width: 100%;
+    float: right;
+    /* border: 1px solid red; */
+}
+.leftheader {
+    /* border: 1px solid red; */
+    width: 55%;
+    padding: 7%;
+}
+.cstu {
+    font-size: 150%;
+    margin: 2%;
+    /* border: 1px solid red; */
+    width: 50%;
+}
+.ty {
+    text-align: center;
+    font-size: 70px;
+    padding: 6%;
+}
+.info {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    /* border: 1px solid red; */
+    font-size: 170%;
+    text-align: center;
+    padding: 2%;
+    margin-bottom: 9%;
+}
+.info img {
+    width: 25%;
+}
+.vdo {
+    padding: 7%;
+    display: flex;
+    background-color: #e7e4e2;
+}
+.gallery {
+    /* border: 1px solid red; */
+    margin-left: 8%;
+    text-align: center;
+    font-size: 150%;
+    width: 65%;
+    line-height:90px;
+    color:#2b3443 ;
+}
+.gallery img{
+    height: 3%;
+    margin: 1%;
+    border-radius: 10%;
+    transition-duration: 1s;
+    align-items: center;
+}
+.gallery img:hover{
+    height: 4%;
+    margin: 1%;
+    border-radius: 5%;
+}
+video {
+    /* border: 1px solid red; */
+    border-radius: 10%;
+}
