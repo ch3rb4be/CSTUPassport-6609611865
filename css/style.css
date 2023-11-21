@@ -117,3 +117,27 @@ video {
     /* border: 1px solid red; */
     border-radius: 10%;
 }
+@media screen and (max-width: 576px) {
+    .menu {
+        flex-direction: column;
+    }
+
+    .tu {
+        font-size: 16px;
+        order: -1;
+    }
+
+    .info {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 768px) {
+
+}
+
+@media screen and (min-width: 769px) and (max-width: 992px) {
+}
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+}
